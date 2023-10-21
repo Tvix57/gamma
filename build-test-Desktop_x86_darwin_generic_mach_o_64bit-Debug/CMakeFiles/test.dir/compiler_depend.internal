@@ -381,8 +381,25 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
- /usr/local/include/QtWidgets/qlabel.h
+ /usr/local/lib/QtWidgets.framework/Headers/QTableView
+ /usr/local/lib/QtWidgets.framework/Headers/qtableview.h
+ /usr/local/include/QtWidgets/qabstractitemview.h
+ /usr/local/include/QtWidgets/qabstractscrollarea.h
  /usr/local/include/QtWidgets/qframe.h
+ /usr/local/include/QtCore/qabstractitemmodel.h
+ /usr/local/include/QtCore/qitemselectionmodel.h
+ /usr/local/include/QtWidgets/qabstractitemdelegate.h
+ /usr/local/include/QtWidgets/qstyleoption.h
+ /usr/local/include/QtWidgets/qabstractspinbox.h
+ /usr/local/include/QtGui/qvalidator.h
+ /usr/local/include/QtGui/qicon.h
+ /usr/local/include/QtWidgets/qslider.h
+ /usr/local/include/QtWidgets/qabstractslider.h
+ /usr/local/include/QtWidgets/qstyle.h
+ /usr/local/include/QtWidgets/qtabbar.h
+ /usr/local/include/QtWidgets/qtabwidget.h
+ /usr/local/include/QtWidgets/qrubberband.h
+ /usr/local/include/QtWidgets/qlabel.h
  /usr/local/include/QtGui/qpicture.h
  /usr/local/include/QtGui/qtextdocument.h
  /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/include/ui_deviceinfo.h
@@ -401,7 +418,6 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o
  /usr/local/include/QtWidgets/QPushButton
  /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h
  /usr/local/include/QtWidgets/qabstractbutton.h
- /usr/local/include/QtGui/qicon.h
  /usr/local/include/QtWidgets/QVBoxLayout
  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h
  /usr/local/include/QtWidgets/qlayout.h
@@ -795,6 +811,22 @@ CMakeFiles/test.dir/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
+ /usr/local/lib/QtWidgets.framework/Headers/QTableView
+ /usr/local/lib/QtWidgets.framework/Headers/qtableview.h
+ /usr/local/include/QtWidgets/qabstractitemview.h
+ /usr/local/include/QtWidgets/qabstractscrollarea.h
+ /usr/local/include/QtWidgets/qframe.h
+ /usr/local/include/QtCore/qabstractitemmodel.h
+ /usr/local/include/QtCore/qitemselectionmodel.h
+ /usr/local/include/QtWidgets/qabstractitemdelegate.h
+ /usr/local/include/QtWidgets/qstyleoption.h
+ /usr/local/include/QtWidgets/qabstractspinbox.h
+ /usr/local/include/QtGui/qvalidator.h
+ /usr/local/include/QtWidgets/qslider.h
+ /usr/local/include/QtWidgets/qabstractslider.h
+ /usr/local/include/QtWidgets/qstyle.h
+ /usr/local/include/QtWidgets/qtabbar.h
+ /usr/local/include/QtWidgets/qrubberband.h
  /usr/local/lib/QtWidgets.framework/Headers/QApplication
  /usr/local/lib/QtWidgets.framework/Headers/qapplication.h
  /usr/local/include/QtCore/qcoreapplication.h
@@ -1191,6 +1223,22 @@ CMakeFiles/test.dir/mainwindow.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
+ /usr/local/lib/QtWidgets.framework/Headers/QTableView
+ /usr/local/lib/QtWidgets.framework/Headers/qtableview.h
+ /usr/local/include/QtWidgets/qabstractitemview.h
+ /usr/local/include/QtWidgets/qabstractscrollarea.h
+ /usr/local/include/QtWidgets/qframe.h
+ /usr/local/include/QtCore/qabstractitemmodel.h
+ /usr/local/include/QtCore/qitemselectionmodel.h
+ /usr/local/include/QtWidgets/qabstractitemdelegate.h
+ /usr/local/include/QtWidgets/qstyleoption.h
+ /usr/local/include/QtWidgets/qabstractspinbox.h
+ /usr/local/include/QtGui/qvalidator.h
+ /usr/local/include/QtWidgets/qslider.h
+ /usr/local/include/QtWidgets/qabstractslider.h
+ /usr/local/include/QtWidgets/qstyle.h
+ /usr/local/include/QtWidgets/qtabbar.h
+ /usr/local/include/QtWidgets/qrubberband.h
  /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/include/ui_mainwindow.h
  /usr/local/include/QtCore/QVariant
  /usr/local/lib/QtCore.framework/Headers/qvariant.h
@@ -1222,8 +1270,6 @@ CMakeFiles/test.dir/mainwindow.cpp.o
  /usr/local/include/QtWidgets/qabstractbutton.h
  /usr/local/include/QtWidgets/QScrollArea
  /usr/local/lib/QtWidgets.framework/Headers/qscrollarea.h
- /usr/local/include/QtWidgets/qabstractscrollarea.h
- /usr/local/include/QtWidgets/qframe.h
  /usr/local/include/QtWidgets/QStatusBar
  /usr/local/lib/QtWidgets.framework/Headers/qstatusbar.h
  /usr/local/include/QtWidgets/QVBoxLayout
@@ -1613,11 +1659,27 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset
+ /usr/local/lib/QtWidgets.framework/Headers/QTableView
+ /usr/local/lib/QtWidgets.framework/Headers/qtableview.h
+ /usr/local/include/QtWidgets/qabstractitemview.h
+ /usr/local/include/QtWidgets/qabstractscrollarea.h
+ /usr/local/include/QtWidgets/qframe.h
+ /usr/local/include/QtCore/qabstractitemmodel.h
+ /usr/local/include/QtCore/qitemselectionmodel.h
+ /usr/local/include/QtWidgets/qabstractitemdelegate.h
+ /usr/local/include/QtWidgets/qstyleoption.h
+ /usr/local/include/QtWidgets/qabstractspinbox.h
+ /usr/local/include/QtGui/qvalidator.h
+ /usr/local/include/QtGui/qicon.h
+ /usr/local/include/QtWidgets/qslider.h
+ /usr/local/include/QtWidgets/qabstractslider.h
+ /usr/local/include/QtWidgets/qstyle.h
+ /usr/local/include/QtWidgets/qtabbar.h
+ /usr/local/include/QtWidgets/qtabwidget.h
+ /usr/local/include/QtWidgets/qrubberband.h
  /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /opt/goinfre/ajhin/gamma/test/mainwindow.h
  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow
  /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h
- /usr/local/include/QtWidgets/qtabwidget.h
- /usr/local/include/QtGui/qicon.h
  /opt/goinfre/ajhin/gamma/test/ListWidgets/deviceinfo.h
 

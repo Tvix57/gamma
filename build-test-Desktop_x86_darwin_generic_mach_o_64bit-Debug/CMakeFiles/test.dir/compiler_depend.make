@@ -380,8 +380,25 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: /opt/goinfre/ajhin/gamma/test/
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
-  /usr/local/include/QtWidgets/qlabel.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QTableView \
+  /usr/local/lib/QtWidgets.framework/Headers/qtableview.h \
+  /usr/local/include/QtWidgets/qabstractitemview.h \
+  /usr/local/include/QtWidgets/qabstractscrollarea.h \
   /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtCore/qabstractitemmodel.h \
+  /usr/local/include/QtCore/qitemselectionmodel.h \
+  /usr/local/include/QtWidgets/qabstractitemdelegate.h \
+  /usr/local/include/QtWidgets/qstyleoption.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtGui/qicon.h \
+  /usr/local/include/QtWidgets/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
+  /usr/local/include/QtWidgets/qstyle.h \
+  /usr/local/include/QtWidgets/qtabbar.h \
+  /usr/local/include/QtWidgets/qtabwidget.h \
+  /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/include/QtWidgets/qlabel.h \
   /usr/local/include/QtGui/qpicture.h \
   /usr/local/include/QtGui/qtextdocument.h \
   test_autogen/include/ui_deviceinfo.h \
@@ -400,7 +417,6 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: /opt/goinfre/ajhin/gamma/test/
   /usr/local/include/QtWidgets/QPushButton \
   /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/include/QtWidgets/qabstractbutton.h \
-  /usr/local/include/QtGui/qicon.h \
   /usr/local/include/QtWidgets/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/include/QtWidgets/qlayout.h \
@@ -793,6 +809,22 @@ CMakeFiles/test.dir/main.cpp.o: /opt/goinfre/ajhin/gamma/test/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
+  /usr/local/lib/QtWidgets.framework/Headers/QTableView \
+  /usr/local/lib/QtWidgets.framework/Headers/qtableview.h \
+  /usr/local/include/QtWidgets/qabstractitemview.h \
+  /usr/local/include/QtWidgets/qabstractscrollarea.h \
+  /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtCore/qabstractitemmodel.h \
+  /usr/local/include/QtCore/qitemselectionmodel.h \
+  /usr/local/include/QtWidgets/qabstractitemdelegate.h \
+  /usr/local/include/QtWidgets/qstyleoption.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtWidgets/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
+  /usr/local/include/QtWidgets/qstyle.h \
+  /usr/local/include/QtWidgets/qtabbar.h \
+  /usr/local/include/QtWidgets/qrubberband.h \
   /usr/local/lib/QtWidgets.framework/Headers/QApplication \
   /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
   /usr/local/include/QtCore/qcoreapplication.h \
@@ -1188,6 +1220,22 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /opt/goinfre/ajhin/gamma/test/mainwindow.c
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
+  /usr/local/lib/QtWidgets.framework/Headers/QTableView \
+  /usr/local/lib/QtWidgets.framework/Headers/qtableview.h \
+  /usr/local/include/QtWidgets/qabstractitemview.h \
+  /usr/local/include/QtWidgets/qabstractscrollarea.h \
+  /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtCore/qabstractitemmodel.h \
+  /usr/local/include/QtCore/qitemselectionmodel.h \
+  /usr/local/include/QtWidgets/qabstractitemdelegate.h \
+  /usr/local/include/QtWidgets/qstyleoption.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtWidgets/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
+  /usr/local/include/QtWidgets/qstyle.h \
+  /usr/local/include/QtWidgets/qtabbar.h \
+  /usr/local/include/QtWidgets/qrubberband.h \
   test_autogen/include/ui_mainwindow.h \
   /usr/local/include/QtCore/QVariant \
   /usr/local/lib/QtCore.framework/Headers/qvariant.h \
@@ -1219,8 +1267,6 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /opt/goinfre/ajhin/gamma/test/mainwindow.c
   /usr/local/include/QtWidgets/qabstractbutton.h \
   /usr/local/include/QtWidgets/QScrollArea \
   /usr/local/lib/QtWidgets.framework/Headers/qscrollarea.h \
-  /usr/local/include/QtWidgets/qabstractscrollarea.h \
-  /usr/local/include/QtWidgets/qframe.h \
   /usr/local/include/QtWidgets/QStatusBar \
   /usr/local/lib/QtWidgets.framework/Headers/qstatusbar.h \
   /usr/local/include/QtWidgets/QVBoxLayout \
@@ -1608,12 +1654,28 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: test_autogen/mocs_compi
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
+  /usr/local/lib/QtWidgets.framework/Headers/QTableView \
+  /usr/local/lib/QtWidgets.framework/Headers/qtableview.h \
+  /usr/local/include/QtWidgets/qabstractitemview.h \
+  /usr/local/include/QtWidgets/qabstractscrollarea.h \
+  /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtCore/qabstractitemmodel.h \
+  /usr/local/include/QtCore/qitemselectionmodel.h \
+  /usr/local/include/QtWidgets/qabstractitemdelegate.h \
+  /usr/local/include/QtWidgets/qstyleoption.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtGui/qicon.h \
+  /usr/local/include/QtWidgets/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
+  /usr/local/include/QtWidgets/qstyle.h \
+  /usr/local/include/QtWidgets/qtabbar.h \
+  /usr/local/include/QtWidgets/qtabwidget.h \
+  /usr/local/include/QtWidgets/qrubberband.h \
   test_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /opt/goinfre/ajhin/gamma/test/mainwindow.h \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /usr/local/include/QtWidgets/qtabwidget.h \
-  /usr/local/include/QtGui/qicon.h \
   /opt/goinfre/ajhin/gamma/test/ListWidgets/deviceinfo.h
 
 
@@ -1622,8 +1684,6 @@ test_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 test_autogen/mocs_compilation.cpp:
 
 /usr/local/include/QtWidgets/QStatusBar:
-
-/usr/local/include/QtWidgets/qabstractscrollarea.h:
 
 /usr/local/lib/QtWidgets.framework/Headers/qmenubar.h:
 
@@ -1638,8 +1698,6 @@ test_autogen/include/ui_mainwindow.h:
 /opt/goinfre/ajhin/gamma/test/mainwindow.cpp:
 
 /usr/local/lib/QtWidgets.framework/Headers/QApplication:
-
-/usr/local/include/QtWidgets/qtabwidget.h:
 
 /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
@@ -1657,19 +1715,51 @@ test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
 
 /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
-/usr/local/include/QtGui/qicon.h:
-
 /usr/local/include/QtWidgets/qabstractbutton.h:
 
 /usr/local/include/QtWidgets/QPushButton:
+
+/usr/local/include/QtGui/qguiapplication_platform.h:
 
 /usr/local/include/QtGui/qinputmethod.h:
 
 /usr/local/include/QtGui/qguiapplication.h:
 
-/usr/local/include/QtWidgets/qframe.h:
+/usr/local/include/QtCore/qeventloop.h:
+
+/usr/local/lib/QtCore.framework/Headers/qvariant.h:
+
+/usr/local/include/QtCore/QVariant:
+
+test_autogen/include/ui_deviceinfo.h:
+
+/usr/local/include/QtGui/qtextdocument.h:
 
 /usr/local/include/QtWidgets/qlabel.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread/qos.h:
+
+/usr/local/include/QtWidgets/qrubberband.h:
+
+/usr/local/include/QtWidgets/qtabwidget.h:
+
+/usr/local/include/QtGui/qicon.h:
+
+/usr/local/include/QtWidgets/qstyleoption.h:
+
+/usr/local/include/QtCore/qitemselectionmodel.h:
+
+/usr/local/include/QtWidgets/qframe.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/i386/_structs.h:
+
+/usr/local/include/QtWidgets/qabstractitemview.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cassert:
+
+/usr/local/lib/QtWidgets.framework/Headers/qtableview.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_isset.h:
 
@@ -1690,14 +1780,6 @@ test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_u_char.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/types.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree:
-
-/usr/local/include/QtCore/qstringview.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/locale:
-
-/usr/local/include/QtCore/qnativeinterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/streambuf:
 
@@ -1744,8 +1826,6 @@ test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
 /usr/local/lib/QtCore.framework/Headers/QFile:
 
 /usr/local/lib/QtCore.framework/Headers/qjsonarray.h:
-
-test_autogen/include/ui_deviceinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/xlocale/_time.h:
 
@@ -1819,8 +1899,6 @@ test_autogen/include/ui_deviceinfo.h:
 
 /usr/local/include/QtWidgets/qsizepolicy.h:
 
-/usr/local/include/QtGui/qguiapplication_platform.h:
-
 /usr/local/include/QtCore/qsharedpointer_impl.h:
 
 /usr/local/include/QtCore/qsharedpointer.h:
@@ -1865,10 +1943,6 @@ test_autogen/include/ui_deviceinfo.h:
 
 /usr/local/include/QtCore/qtaggedpointer.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ctype.h:
-
-/usr/local/include/QtCore/qcoreapplication_platform.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/compare:
 
 /usr/local/include/QtCore/qregularexpression.h:
@@ -1878,10 +1952,6 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
 /usr/local/include/QtCore/qscopeguard.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h:
-
-/usr/local/include/QtGui/qpicture.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_int32_t.h:
 
@@ -1896,6 +1966,10 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_intmax_t.h:
 
 /usr/local/include/QtCore/qstringmatcher.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/_types.h:
+
+/usr/local/include/QtWidgets/qtabbar.h:
 
 /usr/local/include/QtCore/qalgorithms.h:
 
@@ -1916,6 +1990,14 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_dev_t.h:
 
 /usr/local/include/QtCore/qstringliteral.h:
+
+/usr/local/include/QtCore/qnativeinterface.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree:
+
+/usr/local/include/QtCore/qstringview.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/locale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_clock_t.h:
 
@@ -1955,6 +2037,10 @@ test_autogen/include/ui_deviceinfo.h:
 
 /usr/local/include/QtGui/qtransform.h:
 
+/usr/local/include/QtWidgets/qabstractslider.h:
+
+/usr/local/lib/QtWidgets.framework/Headers/QTableView:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/types.h:
 
 /usr/local/include/QtCore/qchar.h:
@@ -1966,6 +2052,10 @@ test_autogen/include/ui_deviceinfo.h:
 /usr/local/include/QtCore/qlogging.h:
 
 /usr/local/include/QtCore/qobject.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bits:
+
+/usr/local/include/QtCore/qabstractitemmodel.h:
 
 /usr/local/include/QtCore/qobjectdefs_impl.h:
 
@@ -2009,8 +2099,6 @@ test_autogen/include/ui_deviceinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/array:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bits:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/memory:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bit:
@@ -2022,8 +2110,6 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/errno.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cassert:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdint.h:
 
@@ -2071,6 +2157,10 @@ test_autogen/include/ui_deviceinfo.h:
 
 /usr/local/include/QtCore/qbindingstorage.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_va_list.h:
+
+/usr/local/include/QtWidgets/qslider.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/climits:
 
 /usr/local/include/QtCore/qvarlengtharray.h:
@@ -2094,8 +2184,6 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/appleapiopts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/limits:
-
-/usr/local/include/QtGui/qtextdocument.h:
 
 /usr/local/lib/QtWidgets.framework/Headers/QMainWindow:
 
@@ -2134,6 +2222,8 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/new:
+
+/usr/local/include/QtGui/qvalidator.h:
 
 /usr/local/include/QtCore/qdatetime.h:
 
@@ -2174,8 +2264,6 @@ test_autogen/include/ui_deviceinfo.h:
 /usr/local/include/QtGui/qrgba64.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__availability:
-
-/usr/local/lib/QtCore.framework/Headers/qvariant.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_suseconds_t.h:
 
@@ -2247,6 +2335,10 @@ test_autogen/include/ui_deviceinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mbstate_t.h:
 
+/usr/local/include/QtCore/qcoreapplication_platform.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ctype.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_posix_availability.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_wctype_t.h:
@@ -2277,9 +2369,15 @@ test_autogen/include/ui_deviceinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdio.h:
 
+/usr/local/include/QtGui/qpicture.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/usr/local/include/QtWidgets/qabstractspinbox.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iosfwd:
 
@@ -2301,11 +2399,15 @@ test_autogen/include/ui_deviceinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stddef.h:
 
+/usr/local/include/QtWidgets/qstyle.h:
+
 /usr/local/lib/QtCore.framework/Headers/QJsonDocument:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdint.h:
 
 /usr/local/lib/QtCore.framework/Headers/qjsondocument.h:
+
+/usr/local/include/QtWidgets/qabstractscrollarea.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
@@ -2332,6 +2434,8 @@ test_autogen/include/ui_deviceinfo.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/map:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stddef.h:
+
+/usr/local/include/QtWidgets/qabstractitemdelegate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types.h:
 
@@ -2385,12 +2489,6 @@ test_autogen/PNK5WDWK6L/qrc_res.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityInternal.h:
 
-/usr/local/include/QtCore/QVariant:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread/qos.h:
-
 /usr/local/include/QtCore/qconfig.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/cdefs.h:
@@ -2415,15 +2513,11 @@ test_autogen/PNK5WDWK6L/qrc_res.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/algorithm:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_va_list.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/atomic:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cerrno:
 
 /usr/local/include/QtCore/qcompare.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/_types.h:
 
 /usr/local/include/QtGui/qpalette.h:
 
@@ -2431,15 +2525,11 @@ test_autogen/PNK5WDWK6L/qrc_res.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/i386/_structs.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdio:
 
 /usr/local/include/QtGui/qpixelformat.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__functional_base:
-
-/usr/local/include/QtCore/qeventloop.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/numeric:
 

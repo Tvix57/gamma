@@ -37,18 +37,11 @@ void DeviceInfo::show_data(const QJsonValue& json, const QString& key)
     if (json.isObject()) {
         QJsonObject object = json.toObject();
         for (auto it = object.begin(); it != object.end(); ++it) {
-            if (!it.value().isString()) {
+            if (!it.value().isObject()) {
                 ui->dataLayout->addWidget(new QLabel(it.key(), this));
                 show_data(it.value(), it.key());
             } else {
-                QHBoxLayout *hbox = new QHBoxLayout();
                 QTableView *tabbox = new QTableView();
-
-                hbox->addWidget(new QLabel(it.key(), this));
-                hbox->addWidget(new QLabel(it.value().toString(), this));
-
-                ui->dataLayout->addLayout(hbox);
-
                 ui->dataLayout->addWidget(tabbox);
             }
         }

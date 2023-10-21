@@ -88,6 +88,8 @@ public:
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         scrollArea = new QScrollArea(centralwidget);
         scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+        scrollArea->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));

@@ -10,10 +10,17 @@
 #include <QFile>
 #include <QTableView>
 
-
 namespace Ui {
 class DeviceInfo;
 }
+
+enum HeaderSize{
+    Higest = 0,
+    High,
+    Midle,
+    Low,
+    Lowest
+};
 
 class DeviceInfo : public QWidget
 {
@@ -27,12 +34,12 @@ public slots:
 
 private:
     void show_data(const QJsonValue& json, const QString& key);
+    void make_table();
 private slots:
     void on_detailBtn_clicked();
 
 private:
     Ui::DeviceInfo *ui;
-    int _header_lvl = 0;
 };
 
 #endif // DEVICEINFO_H
