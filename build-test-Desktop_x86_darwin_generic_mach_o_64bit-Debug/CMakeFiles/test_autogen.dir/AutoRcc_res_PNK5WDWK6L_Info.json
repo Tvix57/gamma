@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen",
+	"CMAKE_BINARY_DIR" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/opt/goinfre/ajhin/gamma/test",
+	"CMAKE_SOURCE_DIR" : "/opt/goinfre/ajhin/gamma/test",
+	"INCLUDE_DIR" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/include",
+	"INPUTS" : 
+	[
+		"/opt/goinfre/ajhin/gamma/test/res/data/data.json",
+		"/opt/goinfre/ajhin/gamma/test/res/styles/mainTabsStyle.css",
+		"/opt/goinfre/ajhin/gamma/test/res/icon/Icon1.png"
+	],
+	"LOCK_FILE" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/test_autogen.dir/AutoRcc_res_PNK5WDWK6L_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "PNK5WDWK6L",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/usr/local/share/qt/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/test_autogen.dir/AutoRcc_res_PNK5WDWK6L_Used.txt",
+	"SOURCE" : "/opt/goinfre/ajhin/gamma/test/res/res.qrc",
+	"VERBOSITY" : 0
+}

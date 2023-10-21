@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>icon/Icon1.png</file>
+    </qresource>
+    <qresource prefix="/Styles">
+        <file>styles/mainTabsStyle.css</file>
+    </qresource>
+    <qresource prefix="/Data">
+        <file>data/data.json</file>
+    </qresource>
+</RCC>
