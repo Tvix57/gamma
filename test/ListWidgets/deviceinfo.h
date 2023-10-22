@@ -1,7 +1,6 @@
 #ifndef DEVICEINFO_H
 #define DEVICEINFO_H
 
-#include <QWidget>
 #include <QMessageBox>
 #include <QJsonDocument>
 #include <QJsonObject>
@@ -9,6 +8,7 @@
 #include <QJsonArray>
 #include <QFile>
 #include <QFormLayout>
+#include <QLabel>
 
 #include "IListObject.h"
 
@@ -24,9 +24,8 @@ enum HeaderSize{
     Lowest
 };
 
-class DeviceInfo : public QWidget, IListObject
+class DeviceInfo : public IListObject
 {
-    Q_OBJECT
 
 public:
     explicit DeviceInfo(QWidget *parent = nullptr);

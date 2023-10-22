@@ -1,9 +1,9 @@
+#include <QLabel>
 #include "deviceinfo.h"
-#include "QtWidgets/qlabel.h"
 #include "ui_deviceinfo.h"
 
 DeviceInfo::DeviceInfo(QWidget *parent) :
-    QWidget(parent),
+    IListObject(parent),
     ui(new Ui::DeviceInfo) {
     ui->setupUi(this);
     GetData(":/Data/data/data.json");

@@ -20,7 +20,6 @@ MainWindow::~MainWindow() {
 
 void MainWindow::AddPanelInList(std::optional<QWidget*> wgt) {
     if (wgt.has_value()) {
-//        ui->ItemsLayout->addWidget(wgt.value());
         ui->ItemsLayout->layout()->addWidget(wgt.value());
     }
 }

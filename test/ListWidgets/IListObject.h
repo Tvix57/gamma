@@ -1,10 +1,12 @@
 #ifndef ILISTOBJECT_H
 #define ILISTOBJECT_H
 
+#include <QWidget>
 
-class IListObject {
+class IListObject : public QWidget {
+    Q_OBJECT
  public:
-    virtual ~IListObject() = 0;
+    explicit IListObject(QWidget * parent = nullptr) :QWidget(parent) {}
 };
-inline IListObject::~IListObject() {};
+
 #endif // ILISTOBJECT_H
