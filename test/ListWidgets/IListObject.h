@@ -6,6 +6,5 @@ class IListObject {
  public:
     virtual ~IListObject() = 0;
 };
-
 inline IListObject::~IListObject() {};
 #endif // ILISTOBJECT_H

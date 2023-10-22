@@ -6,8 +6,12 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow) {
     ui->setupUi(this);
     ui->mainTabsLayout->setAlignment(Qt::AlignTop);
-    ui->ItemsLayout->setAlignment(Qt::AlignTop);
+    ui->ItemsLayout->layout()->setAlignment(Qt::AlignTop);
     AddPanelInList(std::optional<QWidget*>(new DeviceInfo()));
+    QFile file(":/Styles/styles/Style.css");
+    file.open(QFile::ReadOnly|QFile::Text);
+    setStyleSheet(file.readAll());
+    file.close();
 }
 
 MainWindow::~MainWindow() {
@@ -16,7 +20,8 @@ MainWindow::~MainWindow() {
 
 void MainWindow::AddPanelInList(std::optional<QWidget*> wgt) {
     if (wgt.has_value()) {
-        ui->ItemsLayout->addWidget(wgt.value());
+//        ui->ItemsLayout->addWidget(wgt.value());
+        ui->ItemsLayout->layout()->addWidget(wgt.value());
     }
 }
 

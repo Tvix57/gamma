@@ -29,7 +29,7 @@
    <item>
     <widget class="QPushButton" name="detailBtn">
      <property name="text">
-      <string>PushButton</string>
+      <string>Детали</string>
      </property>
     </widget>
    </item>

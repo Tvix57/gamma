@@ -41,6 +41,7 @@ void DeviceInfo::show_data(const QJsonValue& json) {
                 QFormLayout *lay = new QFormLayout(tab);
                 tab->setLayout(lay);
                 for(; it != object.end(); ++it) {
+
                     lay->addRow(it.key(), new QLabel(it.value().toString()));
                 }
                 ui->dataLayout->addWidget(tab);

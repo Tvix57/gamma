@@ -1,37 +1,32 @@
-QMainWindow#MainWindow {
-
-  /* position: relative; */
-  /* width: 1568px; */
-  /* height: 960px; */
-
+QWidget#centralWidget {
+  margin: 0px;
+  padding: 0px;
   background: #F0EEEE;
-  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 
-QWidget#mainTabsLayout_2 {
+QWidget#mainTabs {
   border-radius: 0px 0px 10px 0px;
   background: #242E40;
-
-  padding: 50 50 50 50;
-  display: flex;
+  /* display: flex; */
   width: 82px;
   height: 960px;
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* flex-shrink: 0; */
+  border-radius: 0px 10px 10px 0px;
 }
 
 
-QWidget#DeviceInfo {
+IListObject {
 
   /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
   padding: 0px;
-  gap: 24px;
+  /* gap: 24px; */
 
   position: absolute;
   width: 1386px;
@@ -40,24 +35,20 @@ QWidget#DeviceInfo {
   top: 36px;
 }
 
+DeviceInfo {
+  padding: 0px;
+}
+
 QPushButton#detailBtn {
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 9px 16px 11px 14px;
-  gap: 8px;
-
   max-width: 85px;
   max-height: 44px;
-
   background: #4480F3;
   border-radius: 8px;
+}
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+QScrollArea#scrollArea {
+  background: transparent;
+  border-radius: 8px;
 
 }
