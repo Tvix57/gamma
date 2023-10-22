@@ -35,9 +35,17 @@ DeviceInfo > QFormLayout{
 QScrollArea#scrollArea {
   background: transparent;
   border-radius: 8px;
-
+  color: black;
 }
 
 TabButton {
   background: transparent;
+}
+
+QPushButton#detailBtn {
+  padding: 9px 16px 11px 14px;
+  max-width: 85px;
+  max-height: 44px;
+  background: #4480F3;
+  border-radius: 8px;
 }
