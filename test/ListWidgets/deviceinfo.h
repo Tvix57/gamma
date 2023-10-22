@@ -40,6 +40,7 @@ private slots:
 
 private:
     Ui::DeviceInfo *ui;
+    HeaderSize _headerSize = HeaderSize::Higest;
 };
 
 #endif // DEVICEINFO_H

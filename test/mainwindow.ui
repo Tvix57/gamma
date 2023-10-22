@@ -63,7 +63,7 @@
         <number>0</number>
        </property>
        <item>
-        <widget class="QPushButton" name="TabBtn1">
+        <widget class="TabButton" name="TabBtn1">
          <property name="minimumSize">
           <size>
            <width>60</width>
@@ -86,7 +86,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="TabButton" name="pushButton">
          <property name="minimumSize">
           <size>
            <width>60</width>
@@ -134,6 +134,13 @@
    </layout>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TabButton</class>
+   <extends>QPushButton</extends>
+   <header>tabbutton.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="res/res.qrc"/>
  </resources>

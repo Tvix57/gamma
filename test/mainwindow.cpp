@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->ItemsLayout->layout()->setAlignment(Qt::AlignTop);
     AddPanelInList(std::optional<QWidget*>(new DeviceInfo()));
     QFile file(":/Styles/styles/Style.css");
-    file.open(QFile::ReadOnly|QFile::Text);
+    file.open(QFile::ReadOnly | QFile::Text);
     setStyleSheet(file.readAll());
     file.close();
 }
@@ -19,9 +19,7 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::AddPanelInList(std::optional<QWidget*> wgt) {
-    if (wgt.has_value()) {
-        ui->ItemsLayout->layout()->addWidget(wgt.value());
-    }
+    if (wgt.has_value()) ui->ItemsLayout->layout()->addWidget(wgt.value());
 }
 
 

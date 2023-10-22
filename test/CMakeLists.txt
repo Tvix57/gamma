@@ -22,12 +22,14 @@ set (HEADERS
         mainwindow.h
         ListWidgets/deviceinfo.h
         ListWidgets/IListObject.h
+        ListWidgets/TabButton.h
 )
 
 set (SOURCES
     main.cpp
     mainwindow.cpp
     ListWidgets/deviceinfo.cpp
+    ListWidgets/TabButton.cc
 )
 
 set (UI

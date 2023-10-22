@@ -1,4 +1,3 @@
-#include <QLabel>
 #include "deviceinfo.h"
 #include "ui_deviceinfo.h"
 
@@ -34,15 +33,20 @@ void DeviceInfo::show_data(const QJsonValue& json) {
         QJsonObject object = json.toObject();
         for (auto it = object.begin(); it != object.end();) {
             if (it.value().isObject()) {
-                ui->dataLayout->addWidget(new QLabel(it.key(), this));
+                QLabel *title = new QLabel(it.key(), this);
+                title->setWordWrap(true);
+                ui->dataLayout->addWidget(title);
                 show_data(it.value());
             } else {
                 QWidget *tab = new QWidget(this);
                 QFormLayout *lay = new QFormLayout(tab);
+                lay->setAlignment(Qt::AlignLeft);
                 tab->setLayout(lay);
                 for(; it != object.end(); ++it) {
+                    QLabel *value = new QLabel(it.value().toString(), this);
+                    value->setWordWrap(true);
+                    lay->addRow(it.key(), value);
 
-                    lay->addRow(it.key(), new QLabel(it.value().toString()));
                 }
                 ui->dataLayout->addWidget(tab);
             }

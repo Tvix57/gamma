@@ -8,43 +8,28 @@ QWidget#centralWidget {
 QWidget#mainTabs {
   border-radius: 0px 0px 10px 0px;
   background: #242E40;
-  /* display: flex; */
   width: 82px;
   height: 960px;
   padding-bottom: 0px;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* flex-shrink: 0; */
   border-radius: 0px 10px 10px 0px;
 }
 
-
 IListObject {
-
-  /* Auto layout */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: flex-start; */
-  padding: 0px;
-  /* gap: 24px; */
-
+  background: #FFFFFF;
+  border-radius: 16px;
   position: absolute;
-  width: 1386px;
-  height: 383px;
-  left: 118px;
-  top: 36px;
 }
 
-DeviceInfo {
-  padding: 0px;
-}
-
-QPushButton#detailBtn {
+IListObject > QPushButton {
   padding: 9px 16px 11px 14px;
   max-width: 85px;
   max-height: 44px;
   background: #4480F3;
   border-radius: 8px;
+}
+
+DeviceInfo > QFormLayout{
+  padding: 0px;
 }
 
 QScrollArea#scrollArea {
