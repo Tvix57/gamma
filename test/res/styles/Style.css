@@ -52,3 +52,7 @@ QScrollArea#scrollArea {
   border-radius: 8px;
 
 }
+
+TabButton {
+  background: transparent;
+}
