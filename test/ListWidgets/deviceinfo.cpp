@@ -55,7 +55,6 @@ void DeviceInfo::show_data(const QJsonValue& json) {
     }
 }
 
-
 void DeviceInfo::on_detailBtn_clicked() {
     QMessageBox msg(this);
     msg.setWindowTitle("Детали по устройству");

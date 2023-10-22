@@ -8,8 +8,9 @@
 #include <QJsonValue>
 #include <QJsonArray>
 #include <QFile>
-#include <QTableView>
 #include <QFormLayout>
+
+#include "IListObject.h"
 
 namespace Ui {
 class DeviceInfo;
@@ -23,7 +24,7 @@ enum HeaderSize{
     Lowest
 };
 
-class DeviceInfo : public QWidget
+class DeviceInfo : public QWidget, IListObject
 {
     Q_OBJECT
 

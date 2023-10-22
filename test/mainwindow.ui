@@ -20,6 +20,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">qrc:/Styles/styles/Style.css</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <property name="palette">
     <palette>

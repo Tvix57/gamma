@@ -1,4 +1,0 @@
-/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/test.dir
-/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
-/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/CMakeFiles/test_autogen.dir

@@ -21,6 +21,7 @@ include_directories(${CMAKE_SOURCE_DIR}/ListWidgets
 set (HEADERS
         mainwindow.h
         ListWidgets/deviceinfo.h
+        ListWidgets/IListObject.h
 )
 
 set (SOURCES
