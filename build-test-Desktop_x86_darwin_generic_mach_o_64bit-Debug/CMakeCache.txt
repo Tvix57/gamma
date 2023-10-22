@@ -133,7 +133,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //No help, variable specified on the command line.
-CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=/private/var/folders/zz/zyxvpxvq6csfxvn_n000cdhw0033c7/T/AppTranslocation/130B4EB6-AE87-4B90-A81C-B8269A86E1B0/d/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake
+CMAKE_PROJECT_INCLUDE_BEFORE:FILEPATH=/private/var/folders/zz/zyxvpxvq6csfxvn_n000cdhw0033c7/T/AppTranslocation/821920F8-C623-4F4A-B934-85DC5DE4E231/d/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=test

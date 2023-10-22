@@ -386,6 +386,14 @@ CMakeFiles/test.dir/main.cpp.o: /opt/goinfre/ajhin/gamma/test/main.cpp \
   /usr/local/include/QtWidgets/qstyle.h \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/lib/QtWidgets.framework/Headers/QApplication \
   /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
   /usr/local/include/QtCore/qcoreapplication.h \

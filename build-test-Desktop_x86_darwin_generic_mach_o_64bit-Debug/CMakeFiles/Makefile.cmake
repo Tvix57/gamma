@@ -11,7 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "/opt/goinfre/ajhin/gamma/test/CMakeLists.txt"
   "/opt/goinfre/ajhin/gamma/test/res/res.qrc"
-  "/private/var/folders/zz/zyxvpxvq6csfxvn_n000cdhw0033c7/T/AppTranslocation/130B4EB6-AE87-4B90-A81C-B8269A86E1B0/d/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake"
+  "/private/var/folders/zz/zyxvpxvq6csfxvn_n000cdhw0033c7/T/AppTranslocation/821920F8-C623-4F4A-B934-85DC5DE4E231/d/Qt Creator.app/Contents/Resources/package-manager/auto-setup.cmake"
   "/usr/local/lib/cmake/Qt6/FindWrapAtomic.cmake"
   "/usr/local/lib/cmake/Qt6/FindWrapOpenGL.cmake"
   "/usr/local/lib/cmake/Qt6/Qt6Config.cmake"

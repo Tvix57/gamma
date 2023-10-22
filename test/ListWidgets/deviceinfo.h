@@ -9,6 +9,7 @@
 #include <QJsonArray>
 #include <QFile>
 #include <QTableView>
+#include <QFormLayout>
 
 namespace Ui {
 class DeviceInfo;
@@ -33,8 +34,7 @@ public slots:
     void GetData(QString json_way);
 
 private:
-    void show_data(const QJsonValue& json, const QString& key);
-    void make_table();
+    void show_data(const QJsonValue& json);
 private slots:
     void on_detailBtn_clicked();
 

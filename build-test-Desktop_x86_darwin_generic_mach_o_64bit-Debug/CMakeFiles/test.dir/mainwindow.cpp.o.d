@@ -387,6 +387,14 @@ CMakeFiles/test.dir/mainwindow.cpp.o: \
   /usr/local/include/QtWidgets/qstyle.h \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/include/./ui_mainwindow.h \
   /usr/local/include/QtCore/QVariant \
   /usr/local/lib/QtCore.framework/Headers/qvariant.h \
@@ -404,10 +412,6 @@ CMakeFiles/test.dir/mainwindow.cpp.o: \
   /usr/local/include/QtGui/qguiapplication_platform.h \
   /usr/local/include/QtWidgets/QHBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /usr/local/include/QtWidgets/qlayout.h \
-  /usr/local/include/QtWidgets/qlayoutitem.h \
-  /usr/local/include/QtWidgets/qboxlayout.h \
-  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/QMainWindow \
   /usr/local/include/QtWidgets/QMenuBar \
   /usr/local/lib/QtWidgets.framework/Headers/qmenubar.h \

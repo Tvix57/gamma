@@ -384,6 +384,14 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /opt/goinfre/ajhin/gamma/build-test-Desktop_x86_darwin_generic_mach_o_64bit-Debug/test_autogen/EWIEGA46WW/../../../test/mainwindow.h \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \

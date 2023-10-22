@@ -398,6 +398,14 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: /opt/goinfre/ajhin/gamma/test/
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/qlabel.h \
   /usr/local/include/QtGui/qpicture.h \
   /usr/local/include/QtGui/qtextdocument.h \
@@ -419,10 +427,6 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: /opt/goinfre/ajhin/gamma/test/
   /usr/local/include/QtWidgets/qabstractbutton.h \
   /usr/local/include/QtWidgets/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /usr/local/include/QtWidgets/qlayout.h \
-  /usr/local/include/QtWidgets/qlayoutitem.h \
-  /usr/local/include/QtWidgets/qboxlayout.h \
-  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/QWidget
 
 CMakeFiles/test.dir/main.cpp.o: /opt/goinfre/ajhin/gamma/test/main.cpp \
@@ -825,6 +829,14 @@ CMakeFiles/test.dir/main.cpp.o: /opt/goinfre/ajhin/gamma/test/main.cpp \
   /usr/local/include/QtWidgets/qstyle.h \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/lib/QtWidgets.framework/Headers/QApplication \
   /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
   /usr/local/include/QtCore/qcoreapplication.h \
@@ -1236,6 +1248,14 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /opt/goinfre/ajhin/gamma/test/mainwindow.c
   /usr/local/include/QtWidgets/qstyle.h \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   test_autogen/include/ui_mainwindow.h \
   /usr/local/include/QtCore/QVariant \
   /usr/local/lib/QtCore.framework/Headers/qvariant.h \
@@ -1253,10 +1273,6 @@ CMakeFiles/test.dir/mainwindow.cpp.o: /opt/goinfre/ajhin/gamma/test/mainwindow.c
   /usr/local/include/QtGui/qguiapplication_platform.h \
   /usr/local/include/QtWidgets/QHBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /usr/local/include/QtWidgets/qlayout.h \
-  /usr/local/include/QtWidgets/qlayoutitem.h \
-  /usr/local/include/QtWidgets/qboxlayout.h \
-  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/QMainWindow \
   /usr/local/include/QtWidgets/QMenuBar \
   /usr/local/lib/QtWidgets.framework/Headers/qmenubar.h \
@@ -1672,6 +1688,14 @@ CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o: test_autogen/mocs_compi
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   test_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /opt/goinfre/ajhin/gamma/test/mainwindow.h \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
@@ -1705,14 +1729,6 @@ test_autogen/include/ui_mainwindow.h:
 
 /usr/local/include/QtWidgets/QWidget:
 
-/usr/local/include/QtWidgets/qgridlayout.h:
-
-test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
-
-/usr/local/include/QtWidgets/qboxlayout.h:
-
-/usr/local/include/QtWidgets/qlayoutitem.h:
-
 /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
 /usr/local/include/QtWidgets/qabstractbutton.h:
@@ -1720,8 +1736,6 @@ test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
 /usr/local/include/QtWidgets/QPushButton:
 
 /usr/local/include/QtGui/qguiapplication_platform.h:
-
-/usr/local/include/QtGui/qinputmethod.h:
 
 /usr/local/include/QtGui/qguiapplication.h:
 
@@ -1736,6 +1750,22 @@ test_autogen/include/ui_deviceinfo.h:
 /usr/local/include/QtGui/qtextdocument.h:
 
 /usr/local/include/QtWidgets/qlabel.h:
+
+/usr/local/include/QtWidgets/qgridlayout.h:
+
+test_autogen/MMII47GADZ/moc_deviceinfo.cpp:
+
+/usr/local/include/QtWidgets/qboxlayout.h:
+
+/usr/local/include/QtWidgets/qlayoutitem.h:
+
+/usr/local/include/QtGui/qinputmethod.h:
+
+/usr/local/include/QtWidgets/QLayout:
+
+/usr/local/lib/QtWidgets.framework/Headers/qformlayout.h:
+
+/usr/local/lib/QtWidgets.framework/Headers/QFormLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
@@ -1928,6 +1958,8 @@ test_autogen/include/ui_deviceinfo.h:
 /usr/local/lib/QtGui.framework/Headers/qicon.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/list:
+
+/usr/local/lib/QtWidgets.framework/Headers/qlayout.h:
 
 /usr/local/include/QtGui/qcursor.h:
 

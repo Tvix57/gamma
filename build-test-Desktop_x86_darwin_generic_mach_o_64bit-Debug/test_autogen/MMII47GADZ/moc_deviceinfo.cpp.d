@@ -305,6 +305,8 @@
   /usr/local/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /usr/local/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
   /usr/local/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/QLayout \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/QTableView \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
@@ -313,8 +315,13 @@
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qformlayout.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
   /usr/local/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \

@@ -383,6 +383,14 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: \
   /usr/local/include/QtWidgets/qtabbar.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
   /usr/local/include/QtWidgets/qrubberband.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFormLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qformlayout.h \
+  /usr/local/include/QtWidgets/QLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/qlabel.h \
   /usr/local/include/QtGui/qpicture.h \
   /usr/local/include/QtGui/qtextdocument.h \
@@ -404,8 +412,4 @@ CMakeFiles/test.dir/ListWidgets/deviceinfo.cpp.o: \
   /usr/local/include/QtWidgets/qabstractbutton.h \
   /usr/local/include/QtWidgets/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /usr/local/include/QtWidgets/qlayout.h \
-  /usr/local/include/QtWidgets/qlayoutitem.h \
-  /usr/local/include/QtWidgets/qboxlayout.h \
-  /usr/local/include/QtWidgets/qgridlayout.h \
   /usr/local/include/QtWidgets/QWidget
