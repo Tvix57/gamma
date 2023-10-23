@@ -1,0 +1,51 @@
+QWidget#centralWidget {
+  margin: 0px;
+  padding: 0px;
+  background: #F0EEEE;
+  border-radius: 8px;
+}
+
+QWidget#mainTabs {
+  border-radius: 0px 0px 10px 0px;
+  background: #242E40;
+  width: 82px;
+  height: 960px;
+  padding-bottom: 0px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+IListObject {
+  background: #FFFFFF;
+  border-radius: 16px;
+  position: absolute;
+}
+
+IListObject > QPushButton {
+  padding: 9px 16px 11px 14px;
+  max-width: 85px;
+  max-height: 44px;
+  background: #4480F3;
+  border-radius: 8px;
+}
+
+DeviceInfo > QFormLayout{
+  padding: 0px;
+}
+
+QScrollArea#scrollArea {
+  background: transparent;
+  border-radius: 8px;
+  color: black;
+}
+
+TabButton {
+  background: transparent;
+}
+
+QPushButton#detailBtn {
+  padding: 9px 16px 11px 14px;
+  max-width: 85px;
+  max-height: 44px;
+  background: #4480F3;
+  border-radius: 8px;
+}
