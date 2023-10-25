@@ -14,13 +14,12 @@ QWidget#mainTabs {
   border-radius: 0px 10px 10px 0px;
 }
 
-IListObject {
+ListObjectWrapper>QWidget#wrapper {
   background: #FFFFFF;
   border-radius: 16px;
-  position: absolute;
 }
 
-IListObject > QPushButton {
+ListObjectWrapper>QWidget#wrapper>QPushButton {
   padding: 9px 16px 11px 14px;
   max-width: 85px;
   max-height: 44px;
@@ -28,7 +27,7 @@ IListObject > QPushButton {
   border-radius: 8px;
 }
 
-DeviceInfo > QFormLayout{
+DeviceInfo>QFormLayout {
   padding: 0px;
 }
 
@@ -48,4 +47,8 @@ QPushButton#detailBtn {
   max-height: 44px;
   background: #4480F3;
   border-radius: 8px;
+}
+
+QMessageBox {
+  border-radius: 0px;
 }

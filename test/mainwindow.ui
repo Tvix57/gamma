@@ -83,6 +83,9 @@
            <height>58</height>
           </size>
          </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
         </widget>
        </item>
        <item>
@@ -102,6 +105,9 @@
            <height>60</height>
           </size>
          </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
         </widget>
        </item>
       </layout>
@@ -110,10 +116,11 @@
     <item>
      <widget class="QScrollArea" name="scrollArea">
       <property name="styleSheet">
-       <string notr="true">  background: transparent;
+       <string notr="true">QScrollArea#scrollArea {
+  background: transparent;
   border-radius: 8px;
   color: black;
-</string>
+}</string>
       </property>
       <property name="horizontalScrollBarPolicy">
        <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -129,7 +136,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>695</width>
+         <width>714</width>
          <height>600</height>
         </rect>
        </property>
@@ -144,7 +151,7 @@
   <customwidget>
    <class>TabButton</class>
    <extends>QPushButton</extends>
-   <header>tabbutton.h</header>
+   <header>TabButton.h</header>
   </customwidget>
  </customwidgets>
  <resources>
