@@ -81,10 +81,5 @@ QPushButton#detailBtn {
 }
 
 QMessageBox {
-  border-radius: none;
-  background-color: red;
-}
-
-QMessageBox {
   border-radius: 0px;
 }
