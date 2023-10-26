@@ -2,6 +2,10 @@
 #define LISTOBJECTWRAPPER_H
 
 #include <QWidget>
+#include <QFile>
+
+#include "ui_listobjectwrapper.h"
+#include "stylesetter.h"
 
 namespace Ui {
 class ListObjectWrapper;

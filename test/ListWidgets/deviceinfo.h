@@ -2,13 +2,13 @@
 #define DEVICEINFO_H
 
 #include <QFile>
-#include <QFormLayout>
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonValue>
 #include <QLabel>
 #include <QMessageBox>
+#include <QDir>
 
 #include "IListObject.h"
 

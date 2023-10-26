@@ -9,12 +9,14 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(
     ${CMAKE_SOURCE_DIR}/ListWidgets
+    ${CMAKE_SOURCE_DIR}/StyleClasses
     ${CMAKE_SOURCE_DIR}/res
 )
 
@@ -22,8 +24,9 @@ set(HEADERS mainwindow.h
     ListWidgets/deviceinfo.h
     ListWidgets/IListObject.h
     ListWidgets/TabButton.h
-    ListWidgets/listobjectwrapper.h
+    StyleClasses/listobjectwrapper.h
     ListWidgets/customdialog.h
+    StyleClasses/stylesetter.h
 )
 
 set(SOURCES
@@ -31,14 +34,15 @@ set(SOURCES
     mainwindow.cpp
     ListWidgets/deviceinfo.cpp
     ListWidgets/TabButton.cc
-    ListWidgets/listobjectwrapper.cc
+    StyleClasses/listobjectwrapper.cc
     ListWidgets/customdialog.cc
+    StyleClasses/stylesetter.cpp
 )
 
 set(UI
     mainwindow.ui
     ListWidgets/deviceinfo.ui
-    ListWidgets/listobjectwrapper.ui
+    StyleClasses/listobjectwrapper.ui
     ListWidgets/customdialog.ui
 )
 
@@ -80,7 +84,7 @@ if(WIN32)
     )
 
 else()
-    set(CMAKE_AUTORCC ON)
+
 
     find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
     find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
