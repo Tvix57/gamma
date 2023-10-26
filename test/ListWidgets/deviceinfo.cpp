@@ -1,16 +1,15 @@
 #include "deviceinfo.h"
 
 #include "ui_deviceinfo.h"
+#include "stylesetter.h"
+
+#define DATA_FILE_WAY ":/Data/data/data.json"
 
 DeviceInfo::DeviceInfo(QWidget *parent)
     : IListObject(parent), ui(new Ui::DeviceInfo) {
   ui->setupUi(this);
-  GetData(":/Data/data/data.json");
-
-  QFile css(":/Styles/styles/Style.css");
-  css.open(QFile::ReadOnly | QFile::Text);
-  setStyleSheet(css.readAll());
-  css.close();
+  GetData(QDir::toNativeSeparators(DATA_FILE_WAY));
+  StyleSetter::setStyle(this);
 }
 
 DeviceInfo::~DeviceInfo() { delete ui; }
@@ -75,8 +74,6 @@ void DeviceInfo::show_data(const QJsonValue &json) {
 
 void DeviceInfo::on_detailBtn_clicked() {
   QMessageBox msg(this);
-  //  msg.setWindowFlags(Qt::Window | Qt::FramelessWindowHint |
-  //                     Qt::WindowCloseButtonHint);
   msg.setWindowTitle("Детали по устройству");
   msg.setText(
       "Какое то описание прошивки может быть длинным в несколько строчек "

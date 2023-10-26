@@ -2,6 +2,7 @@
 
 #include "./ui_mainwindow.h"
 #include "listobjectwrapper.h"
+#include "stylesetter.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -9,10 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
   ui->mainTabsLayout->setAlignment(Qt::AlignTop);
   ui->ItemsLayout->layout()->setAlignment(Qt::AlignTop);
   AddPanelInList(std::optional<QWidget *>(new DeviceInfo()));
-  QFile file(":/Styles/styles/Style.css");
-  file.open(QFile::ReadOnly | QFile::Text);
-  setStyleSheet(file.readAll());
-  file.close();
+  StyleSetter::setStyle(this);
 }
 
 MainWindow::~MainWindow() { delete ui; }
