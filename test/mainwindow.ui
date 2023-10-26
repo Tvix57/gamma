@@ -117,7 +117,7 @@
      <widget class="QScrollArea" name="scrollArea">
       <property name="styleSheet">
        <string notr="true">QScrollArea#scrollArea {
-  background: transparent;
+  background-color: #F0EEEE;
   border-radius: 8px;
   color: black;
 }</string>
@@ -136,9 +136,16 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>714</width>
+         <width>696</width>
          <height>600</height>
         </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#ItemsLayout {  
+  background-color: #F0EEEE;
+  border-radius: 8px;
+  color: black;
+}</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout"/>
       </widget>

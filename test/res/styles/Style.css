@@ -29,12 +29,42 @@ ListObjectWrapper>QWidget#wrapper>QPushButton {
 
 DeviceInfo>QFormLayout {
   padding: 0px;
+  color: black;
+}
+
+QLabel[whatsThis="h1"] {
+  font-size: 24px;
+  color: black;
+}
+
+QLabel[whatsThis="h2"] {
+  font-size: 18px;
+  color: black;
+}
+
+QLabel[whatsThis="h3"] {
+  font-size: 14px;
+  color: black;
+}
+
+QLabel[whatsThis="h4"] {
+  font-size: 10px;
+  color: black;
+}
+
+QLabel[whatsThis="h5"] {
+  font-size: 8px;
+  color: black;
 }
 
 QScrollArea#scrollArea {
-  background: transparent;
+  background-color: #F0EEEE;
   border-radius: 8px;
   color: black;
+}
+
+QWidget#ItemsLayout {
+  background-color: #F0EEEE;
 }
 
 TabButton {
@@ -47,6 +77,12 @@ QPushButton#detailBtn {
   max-height: 44px;
   background: #4480F3;
   border-radius: 8px;
+  color: white;
+}
+
+QMessageBox {
+  border-radius: none;
+  background-color: red;
 }
 
 QMessageBox {

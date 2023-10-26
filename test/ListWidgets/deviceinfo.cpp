@@ -37,18 +37,28 @@ void DeviceInfo::show_data(const QJsonValue &json) {
     for (auto it = object.begin(); it != object.end();) {
       if (it.value().isObject()) {
         QLabel *title = new QLabel(it.key(), this);
+        title->setWhatsThis(HeaderSizeToString(_headerSize));
+        --_headerSize;
         title->setWordWrap(true);
         ui->dataLayout->addWidget(title);
         show_data(it.value());
       } else {
         QWidget *tab = new QWidget(this);
-        QFormLayout *lay = new QFormLayout(tab);
-        lay->setAlignment(Qt::AlignLeft);
+        QGridLayout *lay = new QGridLayout(tab);
+        lay->setAlignment(Qt::AlignLeft | Qt::AlignTop);
         tab->setLayout(lay);
         for (; it != object.end(); ++it) {
+          QLabel *key = new QLabel(it.key(), this);
+          key->setAlignment(Qt::AlignTop);
+          key->setWhatsThis(HeaderSizeToString(_headerSize));
+
           QLabel *value = new QLabel(it.value().toString(), this);
+          value->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
           value->setWordWrap(true);
-          lay->addRow(it.key(), value);
+          value->setWhatsThis(HeaderSizeToString(_headerSize));
+
+          lay->addWidget(key, lay->rowCount(), 0);
+          lay->addWidget(value, lay->rowCount() - 1, 1);
         }
         ui->dataLayout->addWidget(tab);
       }
@@ -60,10 +70,13 @@ void DeviceInfo::show_data(const QJsonValue &json) {
       show_data(val);
     }
   }
+  ++_headerSize;
 }
 
 void DeviceInfo::on_detailBtn_clicked() {
   QMessageBox msg(this);
+  //  msg.setWindowFlags(Qt::Window | Qt::FramelessWindowHint |
+  //                     Qt::WindowCloseButtonHint);
   msg.setWindowTitle("Детали по устройству");
   msg.setText(
       "Какое то описание прошивки может быть длинным в несколько строчек "

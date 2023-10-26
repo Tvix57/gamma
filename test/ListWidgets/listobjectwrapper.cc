@@ -19,4 +19,5 @@ ListObjectWrapper::~ListObjectWrapper() { delete ui; }
 
 void ListObjectWrapper::AddWidgetToLayout(QWidget *widget) {
   ui->wrapper->layout()->addWidget(widget);
+  ui->wrapper->layout()->setAlignment(Qt::AlignmentFlag::AlignLeft);
 }
